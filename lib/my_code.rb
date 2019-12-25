@@ -12,11 +12,5 @@ end
 
 
 def reduce(array, optional = nil)
-  i = 0 
-  total = optional 
-  while i < array.length do 
-    total = yield(array[i])
-    i += 1 
-  end 
-  total 
+ if optional = 
 end 
