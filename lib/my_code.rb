@@ -1,2 +1,2 @@
 # Your Code Here
-(map(array){|n|n*-1})
+(map(Array){|n|n*-1})
