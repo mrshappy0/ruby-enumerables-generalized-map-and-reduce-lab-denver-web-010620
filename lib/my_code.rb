@@ -11,7 +11,7 @@ def map (array)
 end 
 
 
-def reduce(array, optional = 0)
+def reduce(array, optional = nil)
   i = 0 
   total = optional 
   while i < array.length do 
