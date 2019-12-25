@@ -1,5 +1,4 @@
 # Your Code Here
 def map (array, block)
-  array.map 
-  yield 
+  array.map{|n| n*-1}
 end 
