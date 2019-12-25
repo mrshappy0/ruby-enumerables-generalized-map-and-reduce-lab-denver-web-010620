@@ -11,9 +11,9 @@ def map (array)
 end 
 
 
-def reduce(array, optional = 0)
+def reduce(array)
   i = 0 
-  total = optional 
+  total = 0 
   while i < array.length do 
     total += yield(array[i])
     i += 1 
