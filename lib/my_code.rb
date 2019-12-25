@@ -13,5 +13,5 @@ end
 
 def reduce(array, optional = nil)
  if optional
-   
+   starting_point = optional
 end 
