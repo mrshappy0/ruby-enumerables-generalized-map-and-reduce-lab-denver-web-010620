@@ -5,6 +5,7 @@ def map (array)
   while i < array.length do 
     altered_integer = yield(array[i])
     new_array << altered_integer
+    i += 1 
   end 
   new_array
 end 
