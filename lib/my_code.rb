@@ -1,3 +1,3 @@
 # Your Code Here
 def map (array, block)
-  array.map 
+  array.map{block}
