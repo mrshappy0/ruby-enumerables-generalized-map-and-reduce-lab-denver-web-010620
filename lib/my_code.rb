@@ -9,3 +9,5 @@ def map (array)
 end 
 
 map (array) do 
+  array.map{|n| n*-1}
+end 
