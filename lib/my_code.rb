@@ -10,6 +10,6 @@ def map (array)
   new_array
 end 
 
-map(array) do 
-  array.map{|n| n*-1}
-end 
+# map(array) do 
+#   array.map{|n| n*-1}
+# end 
