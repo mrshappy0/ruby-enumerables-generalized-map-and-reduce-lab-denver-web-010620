@@ -23,5 +23,5 @@ def reduce(array, optional = nil)
     starting_point = yield(starting_point, array[i])
     i += 1 
   end 
-  final_result
+  starting_point
 end 
