@@ -13,8 +13,8 @@ end
 
 def reduce(array, optional = nil)
   if optional
-   starting_point = optional
-   i = 0 
+    starting_point = optional
+    i = 0 
   else
-    s
+     
 end 
